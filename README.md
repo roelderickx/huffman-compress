@@ -10,5 +10,6 @@ There is no installation script provided, you have to copy the resulting executa
 
 ## Usage
 Usage is straightforward, `compress` takes the name of a file to compress as parameter, the resulting file will have the same name with the extension .compressed attached. The original file will be kept. `uncompress` takes a compressed file as parameter and reconstructs the original uncompressed version.
+
 **NOTE:** There are no checks implemented, you can throw any file with a .compressed extension at `uncompress` but if the file was not created by `compress` the result is unpredictable. Output files will be overwritten without warning and there is no warranty whatsoever that `uncompress` restores the original file.
 
